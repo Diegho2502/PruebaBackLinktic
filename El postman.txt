@@ -1,0 +1,9 @@
+el postman :
+
+curl --location 'localhost:8080/api/poliza' \
+--header 'Content-Type: application/json' \
+--data '{
+    "tipo_identificacion": 1,
+    "nro_identificacion": "79000003",
+    "valor_asegurado": 2000
+}'
